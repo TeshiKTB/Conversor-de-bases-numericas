@@ -22,8 +22,7 @@ def eh_num_base( n, b ):
 
 
 def base_valida( n ):
-	print(int(n))
-	return True if 2 <= int(n) and int(n) <= 16 else False
+	return True if 2 <= int(n) <= 16 else False
 
 
 def converte_p_decimal( n_str, b ):
