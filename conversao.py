@@ -4,6 +4,7 @@
 
 numbers = "0123456789ABCDEF"
 
+
 def eh_num( n ):
 	"""Verifica se n é um número inteiro"""
 	try:
